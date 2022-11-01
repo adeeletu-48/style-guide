@@ -1,0 +1,8 @@
+/* The border creates a square border 2px wide, solid creates a straight line and aqua is the color. The border-radius gives the border a curve of 50% */
+
+.circle {
+    border: 2px solid aqua; 
+    width: 30px;
+    height: 10px;
+    border-radius: 50%;
+}
