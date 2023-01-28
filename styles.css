@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'karla';
+    src: url(fonts/Karla/static/Karla-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(fonts/Karla/static/Karla-Light.ttf);
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(fonts/Karla/static/Karla-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(fonts/Karla/static/Karla-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'roboto_mono';
+    src: url(fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'roboto_mono';
+    src: url(fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'roboto_mono';
+    src: url(fonts/Roboto_Mono/static/RobotoMono-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-Light.ttf);
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-Medium.ttf);
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'sarabun';
+    src: url(fonts/Sarabun/Sarabun-SemiBold.ttf);
+    font-style: italic;
+}
+
+h1 {
+    margin-left: 120px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fontsize {
+    font-size: 32px;
+    margin-left: 13px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fontsize2 {
+    font-family: 'sarabun', sans-serif;
+    font-size: 20px;
+    font-style: semibold;
+    font-weight: 600;
+}
+
+h2 {
+    padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.pex1 {
+    font-family: karla;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.pex1_1{
+    font-family: karla;
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pex1_2{
+    font-family: karla;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pex1_3{
+    font-family: karla;
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.pex2 {
+    font-family: roboto_mono;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.pex2_1{
+    font-family: roboto_mono;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.pex2_2{
+    font-family: roboto_mono;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pex2_3{
+    font-family: roboto_mono;
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pex3 {
+    font-family: sarabun;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.pex3_1{
+    font-family: sarabun;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.pex3_2{
+    font-family: sarabun;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pex3_3{
+    font-family: sarabun;
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.solid {
+    border-style:  solid;
+    border-color: #A9A9A9;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 400px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.solid2 {
+    border-style:  solid;
+    border-color: #A9A9A9;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+
+.box1 {
+    background-color: rgb(255,23,79);
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    width: 33%;
+    height:100px;
+}
+
+.box2 {
+    background-color: #FFD580;
+    color: #fff;
+    float: left;
+    margin-left: 5px;
+    width: 33%;
+    height:100px;
+}
+
+.box3 {
+    background-color: #32174d;
+    color: #fff;
+    float: right;
+    margin-right: -10px;
+    width: 33%;
+    height:100px;
+}
+
+.box4 {
+    background-color: #4f7942;
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 33%;
+    height:100px;
+}
+
+p {
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.lex1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-style: light;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
